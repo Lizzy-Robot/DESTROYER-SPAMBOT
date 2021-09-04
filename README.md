@@ -29,7 +29,7 @@
   
 ------
 ## Deploy To Heroku
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AT-WORLDS-END/DESTROYER-SPAMBOT)
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lizzy-Robot/DESTROYER-SPAMBOT)
 
 
 ------
