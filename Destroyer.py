@@ -634,7 +634,7 @@ async def _(e):
         Destroyer = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(Destroyer[0])
-            text = "KRR RHAA HU 😉"
+            text = "RUK CHANGE KAR RAHA...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
@@ -671,11 +671,11 @@ async def _(e):
         Destroyer = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = Destroyer[0]
-            text = "DESTROYER IS ON WAY........"
+            text = "JOIN HO RAHA RUK...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("DESTROYER JOINED....")
+                await event.edit("HOGAYA LAWDE🤩")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -707,11 +707,11 @@ async def _(e):
         Destroyer = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = Destroyer[0]
-            text = "DESTROYER IS ON WAY........"
+            text = "JOIN HO RAHA RUK...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("DESTROYER JOINED.... ")
+                await event.edit("HOGAYA LAWDE🤩")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -745,11 +745,11 @@ async def _(e):
         if len(e.text) == 7:
             bc = Destroyer[0]
             bc = int(bc)
-            text = "DESTROYER Leaving....."
+            text = "YE TOH 💩 GROUP HAI"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("DESTROYER GONE.....")
+                await event.edit("💩 GROUP SE BAHAR AGAYA LAWDE")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1182,7 +1182,7 @@ async def ping(e):
         
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till DESTROYER came online again....."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRUK 2MIN AATA HU FIR SE HATERS KI MAA CHODNE..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
